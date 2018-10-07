@@ -1,0 +1,7 @@
+<note>
+    <to attr="123">Tove</to>
+    <from anotheOne='123'>Jani</from>
+    <heading thisIt="gell" yet="fafaf">Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+    <div></div>   
+</note>

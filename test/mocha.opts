@@ -1,0 +1,7 @@
+--reporter spec
+--colors
+--timeout 5000
+--ui bdd
+-R spec
+--require should
+--recursive
