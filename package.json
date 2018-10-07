@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "npx mocha",
     "lint": "npx eslint ."
   },
@@ -16,6 +17,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-logger": "^3.2.0",
     "koa-router": "^7.4.0",
+    "@koa/cors": "^2.2.2",
     "mongoose": "^5.2.0",
     "xml-js": "https://github.com/shaikme/xml-js#master"
   },

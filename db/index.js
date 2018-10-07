@@ -7,7 +7,7 @@ mongoose.Promise = Promise;
 
 mongoose
 	.connect(
-		config.get('dbUri'),
+		process.env.MONGODB_URI || config.get('dbUri'),
 		{
 			server: {
 				socketOptions: {
